@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather-App</title>
+</head>
+<body>
+    <div id="container">
+        <h2>Weather App</h2>
+        <input type="text" id="city" placeholder="Enter city">
+        <button onclick="getweather()">Search</button>
+
+        <img id="weather-icon" alt="Weather Icon" src="https://openweathermap.org/img/wn/WeatherData.weather[0].icon.png"> 
+        <div id="temp"></div>
+        <div id="info"></div>
+        <div id="hour-forecast"></div>
+    </div>
+
+    <script src="script.js"> </script>
+</body>
+</html>
